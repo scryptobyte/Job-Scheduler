@@ -1,7 +1,7 @@
 /**
  * 
  */
-package src.com.naresh.service;
+package src.com.shubham.service;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -9,8 +9,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import src.com.naresh.io.EDF;
-import src.com.naresh.io.Job;
+import src.com.shubham.io.EDF;
+import src.com.shubham.io.Job;
 
 public class JobSchedulerServiceImpl implements JobSchedulerService {
 

@@ -1,14 +1,14 @@
 /**
  * 
  */
-package src.com.naresh;
+package src.com.shubham;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import src.com.naresh.io.Job;
-import src.com.naresh.service.JobSchedulerService;
-import src.com.naresh.service.JobSchedulerServiceImpl;
+import src.com.shubham.io.Job;
+import src.com.shubham.service.JobSchedulerService;
+import src.com.shubham.service.JobSchedulerServiceImpl;
 
 public class Main {
 
@@ -26,8 +26,7 @@ public class Main {
 		// P0-> 0
 		// P1->1
 		// P2->2
-		System.out.println("JOB SCHEDULER");
-		System.out.println("AUTHOR- Naresh Kumar (email-naresh.nitbhopal@gmail.com");
+		
 		/** GIVEN TEST CASES START */
 		JobSchedulerService jobScheduler = new JobSchedulerServiceImpl();
 		Job job1 = new Job("J1", 10, 0, 10, 0);

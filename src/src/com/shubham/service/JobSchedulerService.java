@@ -1,11 +1,11 @@
 /**
  * 
  */
-package src.com.naresh.service;
+package src.com.shubham.service;
 
 import java.util.List;
 
-import src.com.naresh.io.Job;
+import src.com.shubham.io.Job;
 
 public interface JobSchedulerService {
 	/**
